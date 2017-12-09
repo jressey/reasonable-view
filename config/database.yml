@@ -7,11 +7,12 @@ default: &default
 
 development:
   <<: *default
+  adapter: sqlite3
   database: evil_chat_development
 
-  
 test:
   <<: *default
+  adapter: sqlite3
   database: evil_chat_test
 
 production:
