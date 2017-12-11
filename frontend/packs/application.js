@@ -1,5 +1,5 @@
 // frontend/packs/application.js
 import "init";
-import "components/page/page";
+import "components/pages/page";
 import "components/songs/songs";
 import "components/songs/song";
