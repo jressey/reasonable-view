@@ -1,6 +1,6 @@
 <%= render "components/songs/songs" do %>
 	<% @songs.each do |song| %>
-		<%= render "components/song/song" do %>
+		<%= render "components/songs/song" do %>
 			<%= render partial: "song_details", locals: { song: song } %>
 		<% end %>
 	<% end %>
