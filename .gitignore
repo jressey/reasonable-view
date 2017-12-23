@@ -22,5 +22,5 @@
 /node_modules
 
 .DS_Store
-# evil_chat_development
-# evil_chat_test
+evil_chat_development
+evil_chat_test
